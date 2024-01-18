@@ -1,26 +1,22 @@
 package mphasis.FirstCry.pages;
 
-import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage 
 {
 	private WebDriverWait wait;
 	
-	@FindBy(xpath = "//span[contains(@class, 'anch poplogin_main poplogin R12_61')]")
+	@FindBy(xpath = "/html/body/div[2]/div/form/div/div[1]/div/ul/li/p")
 	private WebElement login;
 	
 	@FindBy(id = "lemail")
 	private WebElement email;
 	
-	@FindBy(xpath = "//div[contains(@class, 'B14_white comm-btn btn-login-continue btn-login-cont-otp')]")
+	@FindBy(xpath = "//*[@id=\"login\"]/div/div[3]/span")
 	private WebElement clickcontinue;
 	
 	

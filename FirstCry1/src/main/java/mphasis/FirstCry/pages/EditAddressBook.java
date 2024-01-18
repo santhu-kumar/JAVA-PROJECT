@@ -45,18 +45,18 @@ public class EditAddressBook
 		PageFactory.initElements(driver, this);
 	}
 	
-//	public void enterDetails()
-//	{
-//		name.sendKeys("santhosh k");
-//		buildingName.sendKeys("santhu Apartment");
-//		streetAddress.sendKeys("kalenahalli");
-//		pincode.sendKeys("573116");
-//		city.sendKeys("channarayapatna");
-//		state.sendKeys("Karnataka");
-//		country.sendKeys("India");
-//		mobileNo.sendKeys("7899790199");
-//		save.click();
-//	}
+/*	public void enterDetails()
+	{
+	name.sendKeys("santhosh k");
+	buildingName.sendKeys("santhu Apartment");
+		streetAddress.sendKeys("kalenahalli");
+		pincode.sendKeys("573116");
+		city.sendKeys("channarayapatna");
+		state.sendKeys("Karnataka");
+		country.sendKeys("India");
+		mobileNo.sendKeys("7899790199");
+		save.click();
+	} */
 	
   public void enterDetails(String name, String buildingName, String streetAddress, String pincode, String city, String state, String country, String mobileNo)
   {
